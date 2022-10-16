@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 
 const Dropdown = ({ className, options, dropdownValue, onChange }) => {
   const [defaultVal, setDefaultVal] = useState("");
-  console.log("dropdownValue: ", dropdownValue);
 
   useEffect(() => {
     setDefaultVal(dropdownValue);

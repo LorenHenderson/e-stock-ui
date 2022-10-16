@@ -6,7 +6,6 @@ export const addStock = async (stock) => {
     .post("/add", stock)
     .then((response) => {
       data = response.data;
-      console.log("Stock response: ", response.data);
     })
     .catch((err) => {
       console.log("Error: ", err);

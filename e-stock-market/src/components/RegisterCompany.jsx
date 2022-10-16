@@ -2,7 +2,7 @@ import { Button, FormLabel, Input } from "@mui/material";
 import { useState } from "react";
 import { registerCompany } from "../api/companyApi";
 import "../styles/RegisterCompany.css";
-import "../styles/Global.css";
+
 const RegisterCompany = () => {
   const [company, setCompany] = useState({
     companyCode: "",

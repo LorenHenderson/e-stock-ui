@@ -1,5 +1,4 @@
 import "./App.css";
-import StockMarket from "./components/StockMarket";
 import Home from "./pages/home/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CompaniesPage from "./pages/getCompanies/GetAllCompaniesPage";
