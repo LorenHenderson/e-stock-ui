@@ -1,0 +1,42 @@
+.registerTitleDiv {
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.Input {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 3rem;
+}
+
+.registerSubmit {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.messages {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.companyCode {
+  margin-right: 2rem;
+}
+.companyName {
+  margin-right: 35px;
+}
+.companyCEO {
+  margin-right: 2rem;
+}
+.companyWebsite {
+  margin-right: 7px;
+}
+.stockExchange {
+  margin-right: 25px;
+}

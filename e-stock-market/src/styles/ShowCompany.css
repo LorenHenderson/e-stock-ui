@@ -1,0 +1,13 @@
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+.horizontalRow {
+  border: 10px, solid, blueviolet;
+}
+
+.stockContainer {
+  height: 250px;
+  overflow: auto;
+}

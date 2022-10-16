@@ -1,0 +1,46 @@
+.addStockTitle {
+  margin-bottom: 5rem;
+}
+
+.addStockInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* text-align: center;
+   */
+  text-align: center;
+  gap: 5rem;
+}
+
+.stockInputsDiv {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.stockSearchSelect {
+  width: 7rem;
+  height: 41px;
+}
+
+.priceLabel {
+  margin-right: 2rem;
+}
+
+.addSubmitButton {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.addMessage {
+  color: green;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hr {
+  border: 10px solid green;
+}

@@ -1,0 +1,27 @@
+.deleteTitle {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.deleteInputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  margin-bottom: 5rem;
+}
+
+.deleteDropdown {
+  width: 7rem;
+  height: 41px;
+}
+
+.deleteResult {
+  margin-top: 5rem;
+}
+
+.clearButton {
+  margin-top: 1rem;
+  text-align: center;
+}

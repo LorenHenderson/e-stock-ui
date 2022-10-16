@@ -1,0 +1,12 @@
+.companySearchTitle {
+  margin-bottom: 5rem;
+}
+
+.companySearchInputs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10rem;
+}
+.companySearchSelect {
+  width: 7rem;
+}
