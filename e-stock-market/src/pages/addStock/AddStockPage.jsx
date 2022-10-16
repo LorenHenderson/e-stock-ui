@@ -9,7 +9,6 @@ const AddStockPage = () => {
   useEffect(() => {
     getAllCompanies().then((company) => {
       setCompanies(company);
-      console.log(company);
     });
   }, []);
 

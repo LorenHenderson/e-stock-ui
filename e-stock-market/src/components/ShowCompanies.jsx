@@ -8,7 +8,6 @@ const ShowCompanies = () => {
 
   useEffect(() => {
     getAllCompanies().then((c) => {
-      console.log("companies: ", c);
       setCompanies(c);
     });
   }, []);

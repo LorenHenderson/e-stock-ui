@@ -9,7 +9,6 @@ const SearchCompanyPage = () => {
   useEffect(() => {
     getAllCompanies().then((company) => {
       setCompanies(company);
-      console.log(company);
     });
   }, []);
 
